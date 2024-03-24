@@ -1185,7 +1185,7 @@
 
 /*** Subscribe Start ***/
 .subscribe {
-    background: linear-gradient(rgba(19, 53, 123, .6), rgba(19, 53, 123, .6)), url(../img/subscribe-img.jpg);
+    background: linear-gradient(rgba(19, 53, 123, .6), rgba(19, 53, 123, .6)), url(../img/soccer-player-action-stadium.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1225,6 +1225,7 @@
 /*** Footer Start ***/
 .footer {
     background: var(--bs-dark);
+    width: 100%;
 }
 .footer .footer-item a {
     line-height: 30px;
