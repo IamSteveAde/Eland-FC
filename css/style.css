@@ -2829,4 +2829,10 @@ ol {
 	  .test p{
 		font-size: 18px;
 	  }
+	  .col-lg-81{
+		margin-left: 15px;
+	  }
+  }
+  #sect{
+	margin-left: 20px;
   }
