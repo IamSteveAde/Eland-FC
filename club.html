@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
@@ -72,7 +73,9 @@
                         </div>
                     </div>
                     <div class="col-lg-10">
-                        <div class="nav-menu">
+                        <div class="nav-menu" data-aos="slide-down"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">
                             <ul class="main-menu">
                                 <li class="active"><a href="./index.html">Home</a></li>
                                 <li><a href="./club.html">Club</a></li>
@@ -108,7 +111,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="bs-text">
-                        <h2>Club</h2>
+                        <h2 data-aos="slide-up"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">Club</h2>
                     </div>
                 </div>
             </div>
@@ -123,20 +128,34 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="cc-pic">
-                            <img src="img/Updated ELand FC Club Badge.png" alt="">
+                            <img src="img/Updated ELand FC Club Badge.png" alt="" data-aos="slide-up"
+                            data-aos-duration="900"
+                            data-aos-easing="ease-out-quart">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="cc-text">
-                            <div class="ct-title">
-                                <h3>ELAND FOOTBALL CLUB</h3>
-                                <p>Eland Football Club represents a beacon of inspiration and unity. Found in Taraba state, the club embodies the essence of talent, courage, and resilience.
-                                </p><p> The amateur team was founded to serve as a platform where gifted youth can showcase their skills on the football field.
+                            <div class="ct-title" >
+                                <h3 data-aos="slide-up"
+                                data-aos-duration="900"
+                                data-aos-easing="ease-out-quart">ELAND FOOTBALL CLUB</h3>
+                                <p data-aos="slide-up"
+                                data-aos-duration="900"
+                                data-aos-easing="ease-out-quart">Eland Football Club represents a beacon of inspiration and unity. Found in Taraba state, the club embodies the essence of talent, courage, and resilience.
+                                </p><p data-aos="slide-up"
+                                data-aos-duration="900"
+                                data-aos-easing="ease-out-quart"> The amateur team was founded to serve as a platform where gifted youth can showcase their skills on the football field.
                                     </p>
-                                    <p>Drawing inspiration from the Gongola State era (1976-1991), when unity and peace prevailed in the region, Eland FC pays homage through its emblem and name. The Eland, a symbol of bravery and gentility found in Taraba State, reflects the club's fearless and calm approach to challenges while the hills in the emblem symbolize the highlands and rugged terrain of Adamawa State and represents the club's unwavering strength and determination to overcome any obstacle.
-                                    </p><p>Eland FC aims to revive the sense of community and togetherness through its captivating style of football. By evoking memories of a time when sports brought people together, Eland FC endeavors to not only excel on the field but also to inspire a new generation of players and fans, a legacy of unity and sporting prowess in the heart of Taraba State</p>
+                                    <p data-aos="slide-up"
+                                    data-aos-duration="900"
+                                    data-aos-easing="ease-out-quart">Drawing inspiration from the Gongola State era (1976-1991), when unity and peace prevailed in the region, Eland FC pays homage through its emblem and name. The Eland, a symbol of bravery and gentility found in Taraba State, reflects the club's fearless and calm approach to challenges while the hills in the emblem symbolize the highlands and rugged terrain of Adamawa State and represents the club's unwavering strength and determination to overcome any obstacle.
+                                    </p><p data-aos="slide-up"
+                                    data-aos-duration="900"
+                                    data-aos-easing="ease-out-quart">Eland FC aims to revive the sense of community and togetherness through its captivating style of football. By evoking memories of a time when sports brought people together, Eland FC endeavors to not only excel on the field but also to inspire a new generation of players and fans, a legacy of unity and sporting prowess in the heart of Taraba State</p>
                             </div>
-                            <div class="ct-widget">
+                            <div class="ct-widget" data-aos="slide-up"
+                            data-aos-duration="900"
+                            data-aos-easing="ease-out-quart">
                                 <ul>
                                     <li>
                                         <h5>Established</h5>
@@ -173,7 +192,9 @@
                     </div>
                 </div>
             </div>
-            <div class="club-tab-list">
+            <div class="club-tab-list" data-aos="slide-up"
+            data-aos-duration="900"
+            data-aos-easing="ease-out-quart">
                 <div class="row">
                     <div class="col-lg-8 m-auto">
                         <ul class="nav nav-tabs" role="tablist">
@@ -360,7 +381,9 @@
     </section>
     <!-- Club Section End -->
 
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg" data-aos="slide-up"
+    data-aos-duration="900"
+    data-aos-easing="ease-out-quart">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -444,6 +467,10 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
 </body>
 
 </html>

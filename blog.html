@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
@@ -117,11 +118,13 @@
     <!-- Breadcrumb Section End -->
 
     <!-- Blog Section Begin -->
-    <section class="blog-section spad">
-        <div class="container">
+    <section class="blog-section spad" >
+        <div class="container" >
             <div class="row" >
                 <div class="col-lg-81 left-blog-pad">
-                    <div class="large-blog set-bg" data-setbg="img/IMG-20240330-WA0012.jpg">
+                    <div class="large-blog set-bg" data-setbg="img/IMG-20240330-WA0012.jpg" data-aos="slide-up"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-out-quart">
                         <div class="bi-tag">Soccer</div>
                         <div class="bi-text">
                             <h3><a href="./blog-details.html">Eland Football Club Clinches Victories in Three Consecutive Matches</a></h3>
@@ -132,7 +135,9 @@
                         </div>
                     </div>
                     <div class="blog-items">
-                        <div class="single-item">
+                        <div class="single-item" data-aos="slide-up"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">
                             <div class="bi-pic">
                                 <img src="img/3.jpg" alt="">
                             </div>
@@ -147,7 +152,9 @@
                                     mention a few.</p>
                             </div>
                         </div>
-                        <div class="single-item">
+                        <div class="single-item" data-aos="slide-up"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">
                             <div class="bi-pic">
                                 <img src="img/4.jpg" alt="">
                             </div>
@@ -162,7 +169,9 @@
                                     mention a few.</p>
                             </div>
                         </div>
-                        <div class="single-item">
+                        <div class="single-item" data-aos="slide-up"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">
                             <div class="bi-pic">
                                 <img src="img/1.jpg" alt="">
                             </div>
@@ -177,7 +186,9 @@
                                     mention a few.</p>
                             </div>
                         </div>
-                        <div class="single-item">
+                        <div class="single-item" data-aos="slide-up"
+                        data-aos-duration="900"
+                        data-aos-easing="ease-out-quart">
                             <div class="bi-pic">
                                 <img src="img/7.jpg" alt="">
                             </div>
@@ -187,7 +198,7 @@
                                     <li><i class="fa fa-calendar"></i> May 19, 2024</li>
                                     
                                 </ul>
-                                <p>It’s that time again when people start thinking about their New Years Resolutions.
+                                <p >It’s that time again when people start thinking about their New Years Resolutions.
                                     Usually they involve, losing weight, quitting smoking, and joining a gym, just to
                                     mention a few.</p>
                             </div>
@@ -202,7 +213,9 @@
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg" data-aos="slide-up"
+    data-aos-duration="900"
+    data-aos-easing="ease-out-quart">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
@@ -286,6 +299,10 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
 </body>
 
 </html>
