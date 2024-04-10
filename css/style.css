@@ -2770,7 +2770,7 @@ ol {
 	height: auto;
   }
   
-  .text {
+  .test {
 	position: absolute;
 	
 	top: 50%;
@@ -2810,4 +2810,23 @@ ol {
 	.logo {
 	  width: 40px; /* Adjust size as needed for mobile screens */
 	}
+  }
+ 
+   /* Media query for mobile screens */
+   @media screen and (max-width: 768px) {
+	.test {
+		position: absolute;
+		
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		color: white;
+	  }
+	  .test h1{
+		font-size: 23px;
+	  }
+	  .test p{
+		font-size: 18px;
+	  }
   }
