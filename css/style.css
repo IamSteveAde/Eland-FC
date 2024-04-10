@@ -2801,3 +2801,13 @@ ol {
   }
 
 
+  .logo {
+	width: 40px; /* Adjust size as needed for normal screens */
+  }
+  
+  /* Media query for mobile screens */
+  @media screen and (max-width: 768px) {
+	.logo {
+	  width: 10px; /* Adjust size as needed for mobile screens */
+	}
+  }
