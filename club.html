@@ -38,13 +38,23 @@
         
         <ul class="main-menu mobile-menu">
             <li class="active"><a href="./index.html">Home</a></li>
-            <li><a href="./club.html">Club</a></li>
-            <li><a href="./schedule.html">Fixtures</a></li>
+            <li><a href="./blog.html">News</a></li>
+            <li><a href="./schedule.html">Matches</a></li>
+            <li><a href="#" >Club</a>
+                <ul class="dropdown" style=" z-index: 1001;">
+                    <li><a href="./staff.html">Staff</a></li>
+                    <li><a href="./team.html" >Team</a></li>
+                    <li><a href="./club.html" >About us</a></li>
+                    
+                </ul>
+            </li>
            
             
-            <li><a href="./blog.html">News</a></li>
-            <li><a href="#">Fans Zone</a>
-                <ul class="dropdown">
+           
+            
+            
+            <li><a href="#" >Fan Zone</a>
+                <ul class="dropdown" style=" z-index: 1001;">
                     <li><a href="https://forms.gle/vi16dabhLvuaYze79" target="_blank">Tickets</a></li>
                     <li><a href="https://forms.gle/VjrJeiyXTkoocndW8" target="_blank">Membership</a></li>
                     <li><a href="https://www.facebook.com/profile.php?id=61557238621879" target="_blank">Media</a></li>
@@ -60,11 +70,11 @@
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="header__top">
-            <div class="container">
-                
-            </div>
+           
         </div>
-        <div class="header__nav">
+        <div class="header__nav" data-aos="slide-down"
+        data-aos-duration="900"
+        data-aos-easing="ease-out-quart">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
@@ -73,18 +83,26 @@
                         </div>
                     </div>
                     <div class="col-lg-10">
-                        <div class="nav-menu" data-aos="slide-down"
-                        data-aos-duration="900"
-                        data-aos-easing="ease-out-quart">
+                        <div class="nav-menu">
                             <ul class="main-menu">
                                 <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./club.html">Club</a></li>
-                                <li><a href="./schedule.html">Fixtures</a></li>
+                                <li><a href="./blog.html">News</a></li>
+                                <li><a href="./schedule.html">Matches</a></li>
+                                <li><a href="#" >Club</a>
+                                    <ul class="dropdown" style=" z-index: 1001;">
+                                        <li><a href="./staff.html">Staff</a></li>
+                                        <li><a href="./team.html" >Team</a></li>
+                                        <li><a href="./club.html" >About us</a></li>
+                                        
+                                    </ul>
+                                </li>
                                
                                 
-                                <li><a href="./blog.html">News</a></li>
-                                <li><a href="#">Fan Zone</a>
-                                    <ul class="dropdown">
+                               
+                                
+                                
+                                <li><a href="#" >Fan Zone</a>
+                                    <ul class="dropdown" style=" z-index: 1001;">
                                         <li><a href="https://forms.gle/vi16dabhLvuaYze79" target="_blank">Tickets</a></li>
                                         <li><a href="https://forms.gle/VjrJeiyXTkoocndW8" target="_blank">Membership</a></li>
                                         <li><a href="https://www.facebook.com/profile.php?id=61557238621879" target="_blank">Media</a></li>
@@ -93,7 +111,6 @@
                                 </li>
                                 <li><a href="./contact.html">Contact Us</a></li>
                             </ul>
-                           
                         </div>
                     </div>
                 </div>
@@ -105,6 +122,7 @@
     </header>
     <!-- Header End -->
 
+
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb-bg.png">
         <div class="container">
@@ -113,7 +131,7 @@
                     <div class="bs-text">
                         <h2 data-aos="slide-up"
                         data-aos-duration="900"
-                        data-aos-easing="ease-out-quart">Club</h2>
+                        data-aos-easing="ease-out-quart">ABOUT US</h2>
                     </div>
                 </div>
             </div>
@@ -200,17 +218,19 @@
                         <ul class="nav nav-tabs" role="tablist">
                             
                             <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Midfielder</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Forward</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">Goalkeeper</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">Defender</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Midfielder</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Attacker</a>
+                            </li>
+                           
+                            
                         </ul><!-- Tab panes -->
                         <div class="tab-content">
                             
