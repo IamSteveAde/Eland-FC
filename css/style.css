@@ -1881,6 +1881,9 @@ ol {
 	line-height: 60px;
 	margin-bottom: 18px;
 }
+.map{
+	margin-top: 106px;
+}
 
 .blog-hero-section .bh-text ul li {
 	list-style: none;
@@ -3284,6 +3287,9 @@ ol {
 	
 	.hero-slider .slide .ppp{
 		height: auto;
+	}
+	.map{
+		margin-top: 115px;
 	}
 
 }
