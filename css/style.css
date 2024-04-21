@@ -3279,7 +3279,7 @@ ol {
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.header__nav{
-		height: 14%;
+		height: 80px;
 	}
 	.breadcrumb-section .bs-text h2{
 		font-size: 30px;
