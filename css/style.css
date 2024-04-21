@@ -3299,8 +3299,9 @@ ol {
 		grid-template-columns: 1fr;
 	}
 	.header__nav{
-		height: 19%;
+		height: 12%;
 	}
+	
 	
 }
 
