@@ -3232,9 +3232,18 @@ ol {
 /* Responsive styles for mobile screens */
 @media screen and (max-width: 768px) {
     .player img {
-        width: 100px;
-        height: 100px;
+       
+       
     }
+	.combo{
+		display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+
+	}
+	.player{
+		width: 100%;
+		height: 100%;
+	}
 }
 .containerrz {
 	max-width: 1200px;
@@ -3277,6 +3286,14 @@ ol {
 @media (max-width: 768px) {
 	.gallery {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.combo{
+		display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+
+	}
+	.player{
+		width: 100%;
 	}
 	.header__nav{
 		height: 80px;
