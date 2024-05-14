@@ -35,7 +35,8 @@
 html,
 body {
 	height: 100%;
-	font-family: "garamound", sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	
@@ -54,7 +55,8 @@ h6 {
 	color: #111111;
 	font-weight: 400;
 	
-	font-family: "garamound", sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
@@ -83,11 +85,18 @@ h6 {
 
 p {
 	font-size: 20px;
-	font-family: 'garamound', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
 	color: #636363;
 	font-weight: 400;
 	line-height: 24px;
 	margin: 0 0 15px 0;
+}
+.set-bg{
+	
+}
+.bh-text h2{
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -198,6 +207,7 @@ ol {
 .text-white a {
 	color: #fff;
 }
+
 
 /* buttons */
 
@@ -1929,7 +1939,18 @@ ol {
 .bd-text .bd-title {
 	margin-bottom: 45px;
 }
+.bd-title P{
+	font-family: 'Montserrat', sans-serif;
+	
+	color: black;
+	font-size: 18px;
+}
+.bd-more-title p{
+	font-family: 'Montserrat', sans-serif;
 
+	color: black;
+	font-size: 18px;
+}
 .bd-text .bd-pic {
 	margin-bottom: 16px;
 }
@@ -2286,7 +2307,8 @@ ol {
 	padding-bottom: 70px;
 }
 .cc-text{
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
 	font-size: 12px;
 }
 .club-content .cc-pic {
