@@ -92,7 +92,9 @@ p {
 	line-height: 24px;
 	margin: 0 0 15px 0;
 }
-.set-bg{
+#kl{
+
+	
 	
 }
 .bh-text h2{
@@ -1057,6 +1059,10 @@ ol {
 .video-item {
 	height: 200px;
 	position: relative;
+}
+#kl{
+	height: 200px;
+	width: 100%;
 }
 
 .video-item:hover .play-btn {
